@@ -1,0 +1,15 @@
+body {
+  background-color: ghostwhite;
+}
+
+.container {
+  background-color: wheat;
+
+  border-top: 2px solid green;
+  border-bottom: 2px solid orangered;
+  border-left: 1px solid green;
+  border-right: 1px solid orangered;
+  border-radius: 2rem;
+  padding: 5rem;
+  margin: 1rem 12rem;
+}

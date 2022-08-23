@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+span {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
