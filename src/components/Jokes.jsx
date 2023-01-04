@@ -9,13 +9,16 @@ function Jokes() {
 
     const axios = require("axios");
 
+    let Key = headers.X-RapidAPI-Key;
+    let Host = headers.X-RapidAPI-Host 
+
     const options = {
         method: 'GET',
         url: 'https://dad-jokes.p.rapidapi.com/random/joke',
-        headers: {
-            'X-RapidAPI-Key': '68daea56b9mshcf0ab303c97a958p15101ajsn912de357783f',
-            'X-RapidAPI-Host': 'dad-jokes.p.rapidapi.com'
-        }
+        // headers: {
+        //     'X-RapidAPI-Key': '68daea56b9mshcf0ab303c97a958p15101ajsn912de357783f',
+        //     'X-RapidAPI-Host': 'dad-jokes.p.rapidapi.com'
+        // }
     };
 
     const getJoke = () => {
